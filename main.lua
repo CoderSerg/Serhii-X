@@ -15,6 +15,20 @@ local Window = WindUI:CreateWindow({
     },
 })
 
+local OpenButtonWindow = Window:EditOpenButton({
+    Title = "Serhii X",
+    Icon = "target",
+    CornerRadius = UDim.new(0,16),
+    StrokeThickness = 2,
+    Color = ColorSequence.new(
+        Color3.fromHex("FF0F7B"), 
+        Color3.fromHex("F89B29")
+    ),
+    OnlyMobile = true,
+    Enabled = true,
+    Draggable = true,
+})
+
 -- Tabs
 
 local TabMain = Window:Tab({
@@ -25,6 +39,11 @@ local TabMain = Window:Tab({
 local TabVisuals = Window:Tab({
     Title = "Visuals",
     Icon = "eye"
+})
+
+local TabScripts = Window:Tab({
+    Title = "Scripts",
+    Icon = "atom"
 })
 
 local TabMisc = Window:Tab({
@@ -98,6 +117,20 @@ WindUI:Popup({
     }
 })
         end
+})
+
+TabScripts:Button({
+    Title = "Voidware (99 Nights in the forest)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VWExtra/main/NightsInTheForest.lua", true))()
+    end
+})
+
+TabScripts:Button({
+    Title = "Z3US (Shooter games)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/blackowl1231/Z3US/refs/heads/main/main.lua"))()
+    end
 })
 
 TabInfo:Select()
