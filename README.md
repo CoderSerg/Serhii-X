@@ -6,3 +6,7 @@ Here is the script if you wanna use it:
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/CoderSerg/Serhii-X/main/main.lua"))()```
 
 and no this script has no key system.
+
+
+Credits to Footagesus for Wind UI
+https://footagesus.github.io/WindUI-Docs/docs
