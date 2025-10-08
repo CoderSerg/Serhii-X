@@ -156,7 +156,7 @@ TabMain:Input({
 TabMain:Button({
     Title = "Teleport to player",
     Callback = function()
-            game.Players.Localplayer.Character.HumanoidRootPart.Position
+          --  game.Players.Localplayer.Character.HumanoidRootPart.Position
         end
 })
 
