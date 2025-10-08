@@ -133,6 +133,13 @@ TabScripts:Button({
     end
 })
 
+TabScripts:Button({
+    Title = "Soluna (Blade ball)",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Patheticcs/Soluna-API/refs/heads/main/bladeball.lua",true))()
+    end
+})
+
 TabMisc:Toggle({
     Title = "Server Desync (Macsploit)",
     Desc = "artfical lag is the best way to describe it",
