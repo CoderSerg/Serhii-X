@@ -133,18 +133,30 @@ TabScripts:Button({
     end
 })
 
-TabScripts:Button({
-    Title = "Soluna (Blade ball)",
-    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Patheticcs/Soluna-API/refs/heads/main/bladeball.lua",true))()
-    end
-})
-
 TabMisc:Toggle({
     Title = "Server Desync (Macsploit)",
     Desc = "artfical lag is the best way to describe it",
     Callback = function(state)
             server_desync(state)
+        end
+})
+
+TabMain:Input({
+    Title = "Input",
+    Desc = "Input Description",
+    Value = "Default value",
+    InputIcon = "bird",
+    Type = "Input",
+    Placeholder = "Enter text...",
+    Callback = function(input) 
+        print("text entered: " .. input)
+    end
+})
+
+TabMain:Button({
+    Title = "Teleport to player",
+    Callback = function()
+            game.Players.Localplayer.Character.HumanoidRootPart.Position
         end
 })
 
