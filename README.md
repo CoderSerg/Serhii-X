@@ -5,9 +5,7 @@ Here is the script if you wanna use it:
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/CoderSerg/Serhii-X/main/main.lua"))()```
 
-and here is the premium version (more updates and features)
-
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/CoderSerg/Serhii-X/main/premium.lua"))()```
+also this script has a (key)[https://youtube.com] (it's free)
 
 
 Credits to Footagesus for Wind UI
