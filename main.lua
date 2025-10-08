@@ -142,12 +142,10 @@ TabMisc:Toggle({
 })
 
 TabMain:Input({
-    Title = "Input",
-    Desc = "Input Description",
-    Value = "Default value",
-    InputIcon = "bird",
+    Title = "Player",
+    Desc = "Player to teleport to",
     Type = "Input",
-    Placeholder = "Enter text...",
+    Placeholder = "Enter player name...",
     Callback = function(input) 
         local targetPlayerToTpTo = input
     end
