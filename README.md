@@ -5,7 +5,7 @@ Here is the script if you wanna use it:
 
 ```loadstring(game:HttpGet("https://raw.githubusercontent.com/CoderSerg/Serhii-X/main/main.lua"))()```
 
-also this script has a [key](https://youtube.com) (it's free)
+also this script has a [key](https://discord.gg/CpgzuFygMb) (it's free)
 
 
 Credits to Footagesus for Wind UI
