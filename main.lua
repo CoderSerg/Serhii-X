@@ -133,4 +133,12 @@ TabScripts:Button({
     end
 })
 
+TabMisc:Toggle({
+    Title = "Server Desync (Macsploit)",
+    Desc = "artfical lag is the best way to describe it",
+    Callback = function(state)
+            server_desync(state)
+        end
+})
+
 TabInfo:Select()
