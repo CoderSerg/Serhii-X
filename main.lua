@@ -149,14 +149,14 @@ TabMain:Input({
     Type = "Input",
     Placeholder = "Enter text...",
     Callback = function(input) 
-        print("text entered: " .. input)
+        local targetPlayerToTpTo = input
     end
 })
 
 TabMain:Button({
     Title = "Teleport to player",
     Callback = function()
-          --  game.Players.Localplayer.Character.HumanoidRootPart.Position
+          game.Players.Localplayer.Character:MoveTo(game.Players[targetPlayerToTpTo.Character)
         end
 })
 
